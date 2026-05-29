@@ -3,3 +3,12 @@
 
 # Claude Code 個人ローカル設定 (各人固有)
 .claude/settings.local.json
+
+# スライド生成 (build/) の依存・中間生成物
+node_modules/
+build/*.pdf
+build/*.jpg
+
+# テーマ選定用の中間サンプル
+theme-samples.pptx
+theme-rich.pptx
